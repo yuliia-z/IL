@@ -14,10 +14,6 @@ public class Soldier {
         this.weapon = weapon;
     }
 
-    public void shoot() {
-        weapon.shoot();
-    }
-
     public void shoot(int amount) {
         weapon.shoot(amount);
     }
